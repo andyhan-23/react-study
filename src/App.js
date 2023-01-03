@@ -1,10 +1,17 @@
 import React from "react";
-
-const App =() => {
+import './App.css';
+function App(){
+  const name="react"
   return(
-    <>
-      <h1>hi</h1>
-    </>
-  );
-};
+    <div className="react">
+      {name}
+      <h1>adad</h1>
+      <br></br>
+      adasd
+      <br></br>
+      adas
+    </div>
+  /*adad*/
+  )
+}
 export default App;

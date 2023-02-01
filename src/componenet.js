@@ -1,12 +1,20 @@
-import React from "react";
+import PropTypes from 'prop-types';
 
-const Component= props =>{
+const Component = ({name, number, children}) =>{
     return(
-    <>
-    <h1>안녕, 나는 {props.name}이라고 해</h1>
-    <h2>나의 직업은 {props.children}이야.</h2>
-    
-    </>
+        <>
+            안녕하세요 제 이름은 {name} 입니다. <br/>
+            저의 직업은 {children} 입니다.
+            제가 제일 좋아하는 숫자는 {number}입니다.
+        </>
     )
-}
+    };
+Component.defaultProps = {
+    name: '재혁'
+};
+Component.propTypes ={
+    name: PropTypes.string,
+    number: PropTypes.number.isRequired
+};
+
 export default Component;

@@ -1,9 +1,10 @@
 import React from "react";
-import Component from "./componenet";
-const App =() =>{
+import Say from "./say";
+
+const App =()=>{
   return(
     <>
-    <Component name='재혁'>개발자</Component>
+    <Say />
     </>
   )
 }

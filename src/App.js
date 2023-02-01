@@ -1,17 +1,10 @@
 import React from "react";
-import './App.css';
-function App(){
-  const name="react"
+import Component from "./componenet";
+const App =() =>{
   return(
-    <div className="react">
-      {name}
-      <h1>adad</h1>
-      <br></br>
-      adasd
-      <br></br>
-      adas
-    </div>
-  /*adad*/
+    <>
+    <Component name='재혁'>개발자</Component>
+    </>
   )
 }
 export default App;

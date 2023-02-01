@@ -1,10 +1,11 @@
 import React from "react";
-import Say from "./say";
+import Event from "./event";
+import Event2 from "./event2";
 
 const App =()=>{
   return(
     <>
-    <Say />
+      <Event2 />
     </>
   )
 }

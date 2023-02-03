@@ -32,4 +32,4 @@ const onClick=()=>{
         </>
     )
 }
-export default Event2
+export default Event2;

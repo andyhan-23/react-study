@@ -18,4 +18,3 @@ Component.propTypes ={
 };
 
 export default Component;
-<test>

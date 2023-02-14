@@ -32,4 +32,4 @@ class Counter extends Component {
         );
     }
 }
-export default Counte
+export default Counter;
